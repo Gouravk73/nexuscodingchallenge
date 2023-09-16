@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Fragrance from './components/Fragrance';
 import SkinCare from './components/SkinCare';
 import Footer from './components/Footer';
+import DecodingFragnance from './components/DecodingFragnance';
+import StoreLocator from './components/StoreLocator';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Hero/>
       <Fragrance/>
       <SkinCare/>
-      
+      <DecodingFragnance/>
+      {/* Seacsol Change */}
+      <StoreLocator/>
       </div>
       <Footer/>
     </BrowserRouter>

@@ -9,7 +9,8 @@ import DecodingFragnance from './components/DecodingFragnance';
 import StoreLocator from './components/StoreLocator';
 import FacialAppointments from './components/FacialAppointments';
 import Quote from './components/Quote';
-
+import WarmClimate from './components/WarmClimate';
+ 
 function App() {
   return (
     <BrowserRouter>
@@ -18,9 +19,9 @@ function App() {
       <Fragrance/>
       <SkinCare/>
       <DecodingFragnance/>
-      {/* Seacsol Change */}
+      <WarmClimate/>
       <StoreLocator/>
-      <FacialAppointments/>
+       <FacialAppointments/>
       <Quote/>
       </div>
       <Footer/>

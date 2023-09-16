@@ -11,12 +11,8 @@ import {HiMenuAlt4} from 'react-icons/hi'
 const Hero = () => {
   return (
     <div className='w-full h-screen'>
-        <div className='w-[100%] bg-[#d9d8c0] flex items-center justify-center p-2'>
-            <p>Trained Aesop consultations are available to provide bespoke skin care advise. <b className='underline' >Book a video consultation</b> </p>
-         </div>
-        <div className='  flex items-center  p-2 bg-zinc-800'>
-             <p className='text-white hover:underline cursor-pointer'>Click and Collect is now available at Hong Kong stores. Enjoy complimentary shipping on orders over HK$400</p>
-        </div>
+            <p className='text-center w-[100%] bg-[#d9d8c0]   p-2'>Trained Aesop consultations are available to provide bespoke skin care advise. <b className='underline' >Book a video consultation</b> </p>
+             <p className=' text-center p-2 bg-zinc-800 text-white hover:underline cursor-pointer'>Click and Collect is now available at Hong Kong stores. Enjoy complimentary shipping on orders over HK$400</p>
         <Navbar/>
         
         <div

@@ -1,9 +1,9 @@
 import React , {useState, useRef} from 'react'
 import { MdArrowBackIosNew, MdOutlineArrowForwardIos } from 'react-icons/md';
 import { AiOutlineArrowRight } from 'react-icons/ai';
-import data from '../assets/data/FragranceData'
+import data from '../assets/data/ClimateData'
 
-const Fragrance = () => {
+const WarmClimate = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const scrollContainerRef = useRef(null);
 
@@ -17,14 +17,11 @@ const Fragrance = () => {
   };
   return (
     <div className='flex flex-col  justify-center pt-16 '>
-      <div className='space-y-2  w-[100%] block md:hidden pb-16 pl-4'>
-              <h1 className='  text-black font-[500] text-[1rem]'>Fragrance</h1>
-              <h1 className=' text-black font-[400] text-[2rem]'>Our personal scents</h1>
-              <h1 className=' text-black font-[400] text-[1rem]'>Unorthodox, evocative, and refined, Aesop fragrances are sensory<br /> bridges to memory and connection points to those around us.</h1>
-              <div className='flex  justify-center items-center gap-1 cursor-pointer '>
-              <h1 className=' text-black font-[400] text-[1rem]'>See all Fragrance</h1>
-              <AiOutlineArrowRight/>
-            </div>
+      <div className='space-y-2  w-[100%] block md:hidden  pl-4'>
+              <h1 className='  text-black font-[500] text-[1rem]'>For warm climates</h1>
+              <h1 className=' text-black font-[400] text-[2rem]'>Adjusting to seasonal change</h1>
+              <h1 className=' text-black font-[400] text-[1rem]'>In the warmer months, high temperatures and humidity can lead to <br /> increased sebum production for normal, combination, and oily skins. <br /> Accordingly, the use of slightly lighter formulations is recommended.</h1>
+               
                      
           </div>
     <div className='flex items-center md:pl-16 h-[90vh] justify-center'>
@@ -43,26 +40,23 @@ const Fragrance = () => {
         style={{overflowX: 'hidden', position: 'relative',scrollBehavior: 'smooth'}}>
           
           <div className='space-y-2  w-[100%] md:block hidden'>
-              <h1 className='text-black font-[500] text-[1rem]'>Fragrance</h1>
-              <h1 className='text-black font-[400] text-[2rem]'>Our personal scents</h1>
-              <h1 className='text-black font-[400] text-[1rem]'>Unorthodox, evocative, and refined, Aesop fragrances are sensory<br /> bridges to memory and connection points to those around us.</h1>
-              <div className='flex items-center gap-1 cursor-pointer '>
-              <h1 className='text-black font-[400] text-[1rem]'>See all Fragrance</h1>
-              <AiOutlineArrowRight/>
-            </div>
+          <h1 className='  text-black font-[500] text-[1rem]'>For warm climates</h1>
+              <h1 className=' text-black font-[400] text-[2rem]'>Adjusting to seasonal change</h1>
+              <h1 className=' text-black font-[400] text-[1rem]'>In the warmer months, high temperatures and humidity can lead to <br /> increased sebum production for normal, combination, and oily skins. <br /> Accordingly, the use of slightly lighter formulations is recommended.</h1>
+               
                      
           </div>
           <div className="flex  ">
                 {data.map((item, index) => (
                   <div
-                    className="flex flex-col items-center flex-shrink-0"
+                    className="flex  flex-col justify-center items-center flex-shrink-0"
                     key={index}
                   >
                     <img
                       src={item.img}
                       alt="Fragrance"
                       className=' h-auto max-h-[300px] sm:max-h-[420px]  w-full object-cover'                     />
-                    <p className="text-[0.8rem] sm:text-[1.3rem] font-semibold">{item.name}</p>
+                    <p className="text-[0.8rem] sm:text-[1.1rem] font-semibold">{item.name}</p>
                     <p className="text-[0.8rem] sm:text-[1.1rem] pt-2">{item.title}</p>
                   </div>
                 ))}
@@ -89,4 +83,4 @@ const Fragrance = () => {
   )
 }
 
-export default Fragrance
+export default WarmClimate

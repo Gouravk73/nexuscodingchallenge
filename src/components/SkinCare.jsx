@@ -3,7 +3,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 import img from '../assets/image/section1.jpg'
 const SkinCare = () => {
   return (
-    <div className='lg:flex space-y-4  pl-0 lg:pl-0 sm:pl-16 w-full h-full items-center'>
+    <div className=' lg:flex space-y-4  pl-0 lg:pl-0 sm:pl-16 w-full h-full items-center'>
         <div className='flex flex-col space-y-4 px-2 sm:px-20'>
             <h1 className='text-black font-[500] text-[1rem]'>Parsley Seed Skin Care</h1>
             <h1 className='text-black font-[400] text-[2rem]'>In warm or humid urban settings, <br /> skin is vulnerable to a range of <br /> environmental factors.</h1>

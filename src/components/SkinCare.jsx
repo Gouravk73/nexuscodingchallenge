@@ -3,8 +3,8 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 import img from '../assets/image/section1.jpg'
 const SkinCare = () => {
   return (
-    <div className='flex   w-full h-screen items-center'>
-        <div className='flex flex-col space-y-4 px-20'>
+    <div className='lg:flex space-y-4  pl-0 lg:pl-0 sm:pl-16 w-full h-full items-center'>
+        <div className='flex flex-col space-y-4 px-2 sm:px-20'>
             <h1 className='text-black font-[500] text-[1rem]'>Parsley Seed Skin Care</h1>
             <h1 className='text-black font-[400] text-[2rem]'>In warm or humid urban settings, <br /> skin is vulnerable to a range of <br /> environmental factors.</h1>
             <h1 className='text-black font-[400] text-[1rem]'>Pollution, air-conditioning and the stresses of city life can <br /> heighten skins susceptibility to free radical damage and <br /> dehydration. Anti-oxidant rich Parsley Seed formulations <br /> help to support skin against these effects.</h1>

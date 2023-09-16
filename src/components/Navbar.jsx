@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom'
 import {BiSearch} from 'react-icons/bi'
 const Navbar = () => {
   return (
-    <div className='flex justify-between px-10 pt-[16px] pb-[24px] bg-orange-50 '>
+    <div className=' justify-between px-10 pt-[16px] pb-[24px] bg-transparent   sm:flex hidden '>
         <div className=''>
-            <nav className=' flex  items-center space-x-4 font-[500]'>
-                <Link>Skin Care </Link>
+            <nav className=' lg:flex hidden   items-center space-x-4 font-[500]'>
+                <Link >Skin Care </Link>
                 <Link>Body & Hand </Link>
                 <Link>Hair </Link>
                 <Link>Fragrance   </Link>
@@ -16,6 +16,13 @@ const Navbar = () => {
                 <Link>Read  </Link>
                 <Link>Stores </Link>
                 <Link>Facial Appointments </Link>
+                <Link><BiSearch size={25}   className='text-gray-500' /> </Link>
+
+            </nav>
+            <nav className='lg:hidden sm:flex hidden    items-center space-x-4 font-[500]'>
+                <Link >Skin Care </Link>
+                <Link>Read  </Link>
+                <Link>Stores </Link>
                 <Link><BiSearch size={25}   className='text-gray-500' /> </Link>
 
             </nav>

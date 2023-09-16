@@ -7,6 +7,8 @@ import SkinCare from './components/SkinCare';
 import Footer from './components/Footer';
 import DecodingFragnance from './components/DecodingFragnance';
 import StoreLocator from './components/StoreLocator';
+import FacialAppointments from './components/FacialAppointments';
+import Quote from './components/Quote';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <DecodingFragnance/>
       {/* Seacsol Change */}
       <StoreLocator/>
+      <FacialAppointments/>
+      <Quote/>
       </div>
       <Footer/>
     </BrowserRouter>

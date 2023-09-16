@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Hero from './components/Hero';
 import Fragrance from './components/Fragrance';
 import SkinCare from './components/SkinCare';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <SkinCare/>
       
       </div>
-      
+      <Footer/>
     </BrowserRouter>
   );
 }

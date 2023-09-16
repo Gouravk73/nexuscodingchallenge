@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import HomeImage from '../assets/image/homeImage.jpg'
+import HomeImage from '../assets/image/homeImage.avif'
 import Button from '../utils/Button'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
@@ -9,8 +9,8 @@ const Hero = () => {
     <div className='w-full h-screen'>
         <Navbar/>
         <div
-            style={{backgroundImage:`url(${HomeImage})`}}
-            className='w-full h-[70vh] object-cover flex   pl-[2.5rem] pt-[6rem]  gap-32'
+            style={{backgroundImage:`url(${HomeImage})`,backgroundSize: 'cover', backgroundRepeat: 'no-repeat',backgroundPosition:'center'}}
+            className='w-full h-[80vh] object-cover flex   pl-[2.5rem] pt-[6rem]  gap-32'
             >   
                 <div>
                     <h1 className='text-white font-[400] text-[2rem] '>AESOP</h1>
